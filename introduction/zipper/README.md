@@ -1,0 +1,1 @@
+Two arrays of numbers of length n are given. Compose from them one array of length 2n, in which the numbers from the input arrays alternate (first - second - first - second - ...). The relative ordering of the numbers from one array must be preserved.
