@@ -2,4 +2,4 @@
 
 ## Algorithms and data structures
 
-- [introduction](introduction)
+- [introduction](introduction/)
