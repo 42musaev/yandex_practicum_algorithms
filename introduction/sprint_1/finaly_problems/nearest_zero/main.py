@@ -1,22 +1,22 @@
-_n = input()
-arr = list(map(int, input().strip().split()))
+_ = input()
+arr = list(map(int, input().split()))
 
-distances = [0 if arr[i] == 0 else float('inf') for i in range(len(arr))]
+arr = [float('inf') if i != 0 else 0 for i in arr]
 
-nearest_house = float('inf')
+_count = float('inf')
 for i in range(len(arr)):
     if arr[i] == 0:
-        nearest_zero = arr[i]
+        _count = 0
     else:
-        nearest_house += 1
-        distances[i] = min(distances[i], nearest_house)
+        _count += 1
+    arr[i] = min(_count, arr[i])
 
-nearest_house = float('inf')
+_count = float('inf')
 for i in range(len(arr) - 1, -1, -1):
     if arr[i] == 0:
-        nearest_zero = arr[i]
+        _count = 0
     else:
-        nearest_house += 1
-        distances[i] = min(distances[i], nearest_house)
+        _count += 1
+    arr[i] = min(_count, arr[i])
 
-print(*distances)
+print(*arr)
