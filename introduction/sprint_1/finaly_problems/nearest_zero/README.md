@@ -1,0 +1,3 @@
+Timofey is looking for a place to build a house for himself. The street on which he wants to live has length n, i.e. it consists of n identical consecutive plots. Each plot is either empty or has a house already built on it.
+The sociable Timofey does not want to live far away from other people on this street. Therefore, it is important for him to know the distance to the nearest empty plot for each plot. If the plot is empty, this value will be equal to zero - the distance to itself.
+Help Timothy to calculate the distances he needs. To do this, you have a street map. The houses in Timothy's town were numbered in the order in which they were built, so their numbers on the map are not ordered in any way. Empty lots are labeled with zeros.
