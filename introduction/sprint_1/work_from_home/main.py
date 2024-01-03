@@ -1,0 +1,8 @@
+n = int(input())
+
+res = ''
+
+while n > 0:
+    res += str(n % 2)
+    n = n // 2
+print(res[::-1] if res else '0')
