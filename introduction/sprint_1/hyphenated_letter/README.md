@@ -1,0 +1,1 @@
+Vasya likes string problems very much, so he invented his own. There are 2 strings s and t consisting only of lowercase letters. String t is obtained by mixing the letters of string s and adding 1 letter in a random position. We need to find the added letter.
