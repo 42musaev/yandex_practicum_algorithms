@@ -11,8 +11,8 @@ if LOCAL:
 
 
 def solution(node):
-    current_node = node
     prev_node = None
+    current_node = node
 
     while current_node:
         next_node = current_node.next
